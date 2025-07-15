@@ -27,7 +27,7 @@ Follow these steps to set up the environment and run the application.
 This project uses Docker Compose to run a single-node Elasticsearch cluster.
 
 **Start the Cluster:**
-Navigate to the project's root directory (where `docker-compose.yml` is located) and run the following command:
+Navigate to the project's root directory "elastic-search" (where `docker-compose.yml` is located) and run the following command:
 
 ```bash
 docker-compose up -d
@@ -60,7 +60,7 @@ You should see a JSON response with details about the Elasticsearch cluster, sim
 ![alt text](<Screenshot 2025-07-16 024508.png>)
 
 
-### 2. Build the Application
+### 2. Build the Application(course-search)
 
 Use Maven to compile the source code and package it into an executable JAR file.
 
